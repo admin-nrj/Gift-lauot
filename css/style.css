@@ -634,3 +634,260 @@ body {
     color: #535353;
     margin-bottom: 42px;
 }
+
+/* articles */
+.articles{
+    margin-bottom: 141px;
+}
+.articles__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 55px;
+}
+.articles__header h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #535353;
+}
+.articles__header a:link{
+    text-decoration: none;
+}
+.article__link{
+    cursor: pointer;
+}
+.articles__header .article__link{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #16C1A1;
+}
+.articles__header .article__link{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #16C1A1;
+}
+.cards-container{
+    position: relative;
+}
+.articles-cards{
+
+    display: flex;
+    gap: 76px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #FFF4E4;
+    border-radius: 36px;
+    padding: 33px 44px;
+    column-gap: 43px;
+    width: 652px;
+}
+.article-card img{
+    border-radius: 36px;
+    width: 203px;
+    height: 239px;
+}
+
+.article-card .second{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    justify-content: center;
+}
+
+.article-card .second h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #535353;
+}
+.article-card .second .description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABABAB;
+}
+
+.article-card-link:link{
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF4D4D;
+    text-decoration: none;
+}
+.article-card-link .article__link {
+    display: inline;
+    border-bottom: 1px solid #FF4D4D;
+    padding-bottom: 6px;
+}
+
+.article-card-link:visited{
+    color: #FF4D4D;
+}
+
+/* spin of fortune */
+
+.fortune-spine h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #535353;
+    margin-bottom: 67px;
+}
+
+.fortune-spine .spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+}
+footer{
+    width: 100%;
+    background-color: #413E70;
+    position: relative;
+}
+
+footer .main-container{
+    display: flex;
+    gap: 150px;
+    align-items: flex-start;
+    padding-top: 46px;
+    padding-bottom: 58px;
+}
+.col1 .main-menu__logo{
+    margin-bottom: 96px;
+}
+.pay-logos{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.visa{
+    padding: 0 10px;
+    background: #B6B3E4;
+    border-radius: 5px;
+}
+.visa img{
+    height: 11px;
+    width: 38px;
+}
+footer a:link{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    transition: 0.3s;
+}
+footer a:hover{
+    color: #FFA927;
+}
+
+.copyright{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DADADA;
+}
+
+.col2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.col3{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.col4{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.col5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    padding-top: 20px;
+}
+.col5 .cart::after {
+    background-color: white;
+    color: #848484;
+}
+
+.col5 .user-actions{
+    margin-left:0 ;
+    margin-bottom: 67px;
+}
+.col5 li{
+    list-style: none;
+    margin-bottom:12px;
+}
+.col5 li img{
+    vertical-align: middle;
+    padding-right: 6px;
+}
+.col5 .contacts{
+    margin-bottom: 18px;
+}
+.social{
+    display: flex;
+    gap: 23px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social >a{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    /*background-color: #B6B3E4;*/
+}
+
+.go-up{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.go-up .arrow-up{
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+.go-up .text{
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
