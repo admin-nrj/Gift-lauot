@@ -781,8 +781,10 @@ footer .main-container{
     height: 11px;
     width: 38px;
 }
-footer a:link{
+footer a{
     color: white;
+}
+footer a:link{
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
